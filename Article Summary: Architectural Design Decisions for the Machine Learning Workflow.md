@@ -28,7 +28,20 @@ As with many other ML tasks, data processing can be performed manually or in an 
 
 ## 3.2 Model Building
 
+Building an ML model involves applying a learning algorithm to features of a preprepared data set to yield predictions of a specific type such as qualitative (classification) and quantitative (regression) values. Hyperparameter tuning is the practice of adjusting values used by ML algorithms to optimize their performance metrics. This task may be automated or manual. The actual work involved in model building may be performed with tools, such
+as integrated development environments (IDEs) and computational notebooks, or automatically, using AutoML and model-building pipelines.
+
 ## 3.3 AutoML
 
+The AutoML decision consists of the following two parts:
+
+1. whether AutoML should be applied;
+2. which practices should be automated.
+
+In particular, AutoML can automatically preprocess information during data preparation. It can be used while feature engineering to automatically
+generate new features and select meaningful ones. Throughout model training, it can be applied to automatically train models, perhaps using different parameters and ML algorithms by applying hyperparameter tuning to data processing and model-building components and making a model selection, for example, based on ML as well as domain-related metrics. In this context, it can use validation to score the models.
+
+One goal of applying AutoML is to require less manual tool creation effort,thus supporting higher development velocity and agility. This is achieved
+through increased process and work automation, offering two further key benefits: via automation, AutoML offers a greater level of explainability and reproducibility in the data processing and model-building tasks, as every step follows precisely specified algorithms. Unfortunately, existing AutoML solutions do not always deliver results to the desired quality standards, which often results in a negative impact on production-ready development, potentially leading to additional development work. Extra tool development for engineering the AutoML solution would also be required in this case.
 
 
