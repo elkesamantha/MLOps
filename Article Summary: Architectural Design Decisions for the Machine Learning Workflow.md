@@ -22,7 +22,7 @@ This section  contains detailed about the  model of architectural design decisio
 
 Data processing involves ingesting raw information into an ML workflow and transforming it into usable material that can be further processed by ML algorithms. Data are central to ML, and the main benefits of an ML approach lie in the processing of large volumes of information at scale. Typical phases of the data processing task involve selection, transformation, and output as well as the generation, storage, and versioning of artifacts, such as features and subset samples.
 
-As with many other ML tasks, data processing can be performed manually or in an automated fashion. Data may be ingested manually, in real time (for example, streamed), batched, online, and offline with various implications for latency, throughput, reliability, and so on; Data labeling (for instance, for classification tasks) is another activity that may be performed manually as well as automatically, and we consider the implications. 
+As with many other ML tasks, data processing can be performed manually or in an automated fashion. Data may be ingested manually, in real time (for example, streamed), batched, online, and offline with various implications for latency, throughput, reliability, and so on; Data labeling (for instance, for classification tasks) is another activity that may be performed manually as well as automatically. 
 
 
 
