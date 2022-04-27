@@ -2,7 +2,11 @@
 
 This repository is dedicated to presenting my study and practices on deploying machine learning models in production.
 
-### Course Certificate
+
+
+
+
+#### Courses Certificates
 
 [Git and Version Control](https://app.dataquest.io/view_cert/8WJ2I899VB29O2X14YM7)
 
